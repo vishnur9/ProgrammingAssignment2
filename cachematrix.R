@@ -1,6 +1,6 @@
 #makeCacheMatrix is a function which creates a special matrix and caches its inverse
 #it has a list of functions to set the values of a matrix,get the values of a matrix,set the values of the inverse matrix
-#and also to get the inverse matrix
+
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   #1.function to set the values in a matrix
